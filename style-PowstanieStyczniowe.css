@@ -1,0 +1,67 @@
+body {
+    background-color: #f6e3cf; /* Sepia background color */
+    color: #523b29; /* Brown text color */
+    font-family: 'Georgia', serif; /* Serif font for a more historic look */
+    margin: 30px;
+    padding: 0;
+}
+
+a {
+    color: #6b4b33; /* Brown link color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #531a04; /* Darker brown on hover */
+}
+
+h2 {
+    text-align: center;
+    margin-top: none;
+    color: #6b4b33; /* Brown heading color */
+}
+
+.div1z, .div2z, .div3z {
+    border: 2px solid #523b29; /* Dark brown border */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #f9efe5; /* Light sepia background color */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+label input {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #523b29; /* Dark brown button color */
+    color: #f6e3cf; /* Sepia text color */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 30px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #6b4b33; /* Darker brown on hover */
+}
+
+img {
+    border-radius: 30px;
+}
+
+.buttons {
+    text-align: center;
+    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+}

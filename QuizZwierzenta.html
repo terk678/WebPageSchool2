@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Zwierzęta</title>
+    <link rel="stylesheet" href="style-QuizZwierzenta.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="/index.html" id="a1z"><strong>Wróć</strong></a>
+    <br>
+    <div class="div687">
+     <div class="divh2z">
+      <h2>Quiz o Zwierzętach</h2>
+     </div>
+     
+     <div class="div1zp">
+     <div class="div1z">
+    <form id="form1z">
+        <p>1. Jakie to zwierze???</p>
+         <img src="/pictrures/giraffe-Webpage.jpg" width="300px" style="margin-top: 20px; margin-left: 42px;" class="img1z">
+     <!--zrobiłem /pictures/link zdjencia ponieważ zdjencia zą w innym folderze-->
+     <p style="text-align: center;" class="p1z">"Ma długą szyję ma żułte futro i brązowe duże kropki ma cztery nogi"</p>
+     <!-- inputy dzięki poniszego kodu da sie tylko jeden input wybrać -->
+     <label class="label1">
+        <input type="radio" name="gender" value="Słoń">Słoń
+        <input type="radio" name="gender" value="Żyrafa">Żyrafa
+        <input type="radio" name="gender" value="Pantera">Pantera
+    </label>
+   </form>
+   </div>
+</div>
+
+   <form id="form2z">
+     <div class="div2z" style="margin-top: 50px;">
+        <ol start="2">
+         <li>W polsce istnieje 7 gatunków węży???</li> <img src="pictrures/Snake-Webpage.jpg" width="300px" style="margin-top: 20px;">
+         </ol>
+         <label style="text-align: center;">
+            <input type="radio" name="gender2" value="Prawda">Prawda
+            <input type="radio" name="gender2" value="Fałsz">Fałsz
+        </label>
+     </div>
+   </form>
+
+   <form id="form3z">
+     <div class="div3z" style="margin-top: 50px; margin-bottom: 200px;">
+        <ol start="3">
+            <li>W którym kraju zamieszkują axalotle???</li> <img src="pictrures/axalot-Webpage.jpg" width="300px" style="margin-top: 20px;">
+         </ol>
+         <label>
+            <input type="radio" name="gender3" value="Libya">Libya
+            <input type="radio" name="gender3" value="Tanzania">Tanzania
+            <input type="radio" name="gender3" value="Meksyk">Meksyk
+        </label>
+     </div>
+   </form>
+</div>
+<a href="/index.html">
+   <button>Skończ quiz i wróć do strony głównej</button>
+</a>
+<button id="finalButtonAnimalQuiz" onclick="checkAnimalquiz">Sprawdż czy odpowiedzi masz poprawne</button>
+<button id="refreshButton">Zacznij Quiz od Nowa</button>
+<p id="anwser1z"></p>
+<p id="anwser2z"></p>
+<p id="anwser3z"></p>
+<!--W tych p pojami się text czy wybrane odpowiedzi są poprawne które się zaznaczyło-->
+
+<!--link do javascript-->
+<script src="scriptThree.js"></script>
+</body>
+</html>

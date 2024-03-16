@@ -1,0 +1,138 @@
+/* Stylowanie napisu "Quizy w stronie Głównej" */
+
+h1 {
+    color: rgb(248, 143, 5);
+    border: solid 3px white;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.932);
+    font-family: "Poppins", sans-serif;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom, #41f1ae, #1cecd1); /* Tworzenie tapety na stronie głównej */
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.h41 {
+    color: rgb(248, 143, 5);
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    padding: 5px;
+    border: solid 2px rgb(255, 255, 255);
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    display: inline-block;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(248, 143, 5);
+    font-size: 20px;
+    border: solid 2px orange;
+    padding: 6px;
+    border-radius: 14px;
+    font-family: "Poppins";
+ }
+
+#quiz1 :hover {
+    font-size: 20px;
+    color: rgb(93, 245, 106);
+    border: solid 2px white;
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+    border-radius: 13px;
+}
+
+
+#quiz2 :hover {
+    font-size: 20px;
+    color: rgb(159, 93, 245);
+    border: solid 2px rgb(255, 255, 255);
+    background-color: white;
+    padding: 4px;
+    border-radius: 13px;
+}
+
+#quiz3 :hover {
+    font-size: 20px;
+    color: rgb(218, 40, 40);
+    border: solid 2px rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+    border-radius: 13px;
+}
+
+h4 {
+    display: inline-block;
+    background-color: white;
+}
+
+/*stylowanie div czyli obiektu w którym są linki */
+
+.div2 {
+    border: solid 2px white;
+    padding: 12px;
+    padding-top: 35px;
+    margin: 15px;
+    display: inline-block;
+    justify-content: space-around;
+    border-radius: 24px;
+    background-color: rgb(255, 255, 255);
+    height: 3em;
+}
+
+.icons-container {
+    border: solid 2px white;
+    padding: 7px;
+    display: inline-block;
+    border-radius: 13px;
+    background-color: white;
+}
+
+.fa-brands.fa-github.fa-2x {
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
+.fa-brands.fa-youtube.fa-2x {
+    color: rgb(226, 17, 17);
+}
+
+.fa-brands.fa-discord {
+    color: rgb(16, 20, 233);
+}
+
+#icons {
+    border: none;
+}
+
+p {
+    color: rgb(248, 143, 5);
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    padding: 7px;
+    border: solid 2px rgb(255, 255, 255);
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    display: inline-block;
+    padding-left: 14px;
+    padding-right: 14px;
+    background-color: white; 
+}
+
+.div3 {
+    padding-top: 23px;
+}
+
+

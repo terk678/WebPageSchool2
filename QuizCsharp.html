@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz C#</title>
+    <link rel="stylesheet" href="style-QuizcSharp.css">
+</head>
+<body>
+    <a href="/index.html" id="comeBackCsharp"><strong>Wróć</strong></a>
+     <h2>Quiz o Programie C#</h2>
+    
+     <div class="div1Csharp">
+     <ol>
+        <li>Co podany kod wyświetla w Output</li>
+     </ol>
+     <div>
+      bool mod = true;
+           <br>
+        if (mod != false)  {
+            <br>
+            Console.Write("Do widzenia");
+        }
+        <br>
+        else {<br>
+            Console.Write("Dzień Dobry");
+        }
+     </div>
+
+     <label>
+        <input type="radio" name="gender" value="male1">Do widzenia
+        <input type="radio" name="gender" value="male2">Dzień Dobry
+        <input type="radio" name="gender" value="male3">Ten kod nic nie wyświetla w konsoli
+    </label>
+    </div>
+
+     <div class="div2z" style="margin-top: 50px;">
+        <ol start="2">
+         <li>C# jest językiem programowania tylko Aplikacji komputerowych</li> <img src="pictrures/c-sharp-WebPage.jpg" width="300px" style="margin-top: 20px;">
+         </ol>
+         <label>
+            <input type="radio" name="gender2" value="male1">Prawda
+            <input type="radio" name="gender2" value="male2">Fałsz
+        </label>
+     </div>
+
+     <div class="div3z" style="margin-top: 50px; margin-bottom: 200px;">
+        <ol start="3">
+            <li>Które z trzech opcji w programie C# wyświetla Cześć w output poprawnie</li> <img src="pictrures/code-C-sharp-WebPage.jpeg" width="600px" style="margin-top: 20px;">
+         </ol>
+         <label>
+            <input type="radio" name="gender3" value="male1">żaden nie poprawnie wyświetla
+            <input type="radio" name="gender3" value="male2"><strong>Console.WriteLine("Cześć");</strong>
+            <input type="radio" name="gender3" value="male3"><strong>printf("Cześć");</strong>
+        </label>
+     </div>
+    <div class="buttons">
+      <a href="index.html">
+         <button>Ukończ quiz i wróć do głównej strony</button>
+      </a>
+      <button id="checkCsharpBtn">Sprawdź czy odpowiedzi masz poprawne</button>
+         <br>
+      <button id="refreshButton">Zacznij quiz od nowa</button>
+    </div>
+    <p id="anwser1"></p>
+    <p id="anwser2"></p>
+    <p id="anwser3"></p>
+    <script src="scriptOne.js"></script>
+    </body>
+</html>

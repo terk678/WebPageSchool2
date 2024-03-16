@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Powstanie Styczniowe</title>
+    <link rel="stylesheet" href="style-PowstanieStyczniowe.css">
+</head>
+<body>
+    <a href="index.html"><strong>Wróć</strong></a>
+     <h2 style="text-align: center; margin-top: 1px;">Quiz o Powstaniu Styczniowym</h2>
+    
+     <div class="div1p">
+     <ol>
+        <li>Jaka to postać ?</li><img src="pictrures/traugutt-WebPage.jpg" width="300px" style="margin-top: 20px;">
+     </ol>
+     <p style="text-align: center;"><strong><em>"Kilkanaście lat służył w armii rosyjskiej a także był ostatnim dyktatorem powstania styczniowego."</em></strong></p>
+     <!-- inputy dzięki poniszego kodu da sie tylko jeden input wybrać -->
+
+     <label>
+        <input type="radio" name="gender" value="male1"><em>Marian Langiewicz</em>
+        <input type="radio" name="gender" value="male2"><em>Romuald Traugutt</em>
+        <input type="radio" name="gender" value="male3"><em>Ludwig Mierosławski</em>
+    </label>
+    </div>
+
+     <div class="div2p" style="margin-top: 50px;">
+        <ol start="2">
+         <li>Powstanie styczniowe miało charakter wojny Partyzanckiej</li> <img src="pictrures/Wojna-WebPage.jpg" width="300px" style="margin-top: 20px;">
+         </ol>
+         <label>
+            <input type="radio" name="gender2" value="male1">Prawda
+            <input type="radio" name="gender2" value="male2">Fałsz
+        </label>
+     </div>
+
+     <div class="div3p" style="margin-top: 50px; margin-bottom: 200px;">
+        <ol start="3">
+            <li>W którym Zaborze powstała dzięki pracy organicznej fabryka Hipolita Cegielskiego</li> <img src="/pictrures/fabryka-Webpage.jpg" width="300px" style="margin-top: 20px;">
+         </ol>
+         <label>
+            <input type="radio" name="gender3" value="male1"><em>W zaborze Austriackim</em>
+            <input type="radio" name="gender3" value="male2"><em>W zaborze Rosyjskim</em>
+            <input type="radio" name="gender3" value="male3"><em>W zaborze Pruskim</em>
+        </label>
+     </div>
+     <div class="buttons">
+      <a href="index.html">
+         <button>Ukończ quiz i wróć do głównej strony</button>
+      </a>
+      <button id="checkPowstanieStyczniowe">Sprawdź czy odpowiedzi masz poprawne</button>
+      <button id="refreshButton">Zacznij quiz od nowa</button>
+      
+   </div>
+   <p id="anwser1"></p>
+   <p id="anwser2"></p>
+   <p id="anwser3"></p>
+     <script src="scriptTwo.js"></script>
+    </body>
+</html>
